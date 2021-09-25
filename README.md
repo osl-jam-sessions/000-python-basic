@@ -3,6 +3,7 @@
 ## Plan
 
 0. Create a repository on GitHub
+ - e.g.: make a fork and clone
 1. Clone your package locally
 2. Use cookiecutter for creating a new package and move the content to the repository you cloned
   - cookiecutter: https://cookiecutter.readthedocs.io/en/1.7.2/
@@ -16,8 +17,13 @@
 4. Open project using a IDE (VSCODE)
   - https://code.visualstudio.com/
   - https://en.wikipedia.org/wiki/Integrated_development_environment
-4. Create a simple function
-5. Create a test
-6. Add pre-commit hooks
-7. Create a CI for tests
-8. Release the package
+5. Create a simple function
+6. Create a test
+  - https://hypothesis.readthedocs.io/en/latest/
+  - https://docs.pytest.org/en/6.2.x/
+7. Add pre-commit hooks
+  - https://pre-commit.com/
+8. Create a CI for tests
+  - https://docs.github.com/en/actions
+9. Release the package
+  - https://realpython.com/pypi-publish-python-package/
